@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 0 10px 0 20px;
+}
+
+.logo{
+  width: 300px;
+}
+
+header a {
+  line-height: 0;
+}
+
+header ul{
+  display: flex;
+}
+
+header li{
+  padding-left: 15px;
+  list-style: none;
+}
+
+.form{
+  background-color: rgb(179, 178, 178);
+  text-align: center;
+  margin: 10px;
+}
+
+.company, .name, .tel, .email, .textarea{
+  background-color: white;
+  width: 500px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-color: gray;
+  padding: 5px;
+}
+
+.submit{
+  background-color: white;
+  border: 1px solid;
+  border-color: gray;
+  padding: 5px 30px;
+}
+
+.form-items p, .company {
+  margin-bottom: 20px;
+  
+}

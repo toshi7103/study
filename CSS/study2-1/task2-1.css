@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* bodyは触らない */
+body {
+    background-color:rgb(218, 216, 216);
+   }
+   /* bodyは触らない */
+    
+   /* divのフォントサイズをCSSで20に設定 */
+    div{
+        font-size: 20px;
+    }
+   /* h3の文字の大きさをCSSで28に設定 */
+   h3{
+       font-size: 28px;
+   }
+   /* h4の文字の大きさを24にする */
+   h4{
+       font-size: 24px;
+   }
+   /* ナンバリングリストの文字の大きさ18px */
+   ol{
+       font-size: 18px;
+       color: green;
+   }
+   /* ナンバリングリストのの文字の色 緑色 */
+    
+   /*  クラス名"abc"の文字を赤色 */
+   .abc{
+       color: red;
+   }
+   /*  id名"abc"の文字を青色 */
+   #abc{
+       color: blue;
+   }
+   
