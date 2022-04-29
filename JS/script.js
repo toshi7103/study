@@ -1,8 +1,24 @@
-let lists = document.getElementsByClassName("pull-down-list");
-console.log(lists);
+const pullDownButton = document.getElementById("lists")
+console.log(pullDownButton)
 
-function getElement(){
-  element = document.querySelector('#shopB');
-  console.log('選ばれたのは' + element.textContent + 'でした');
-}
+window.addEventListener('load',function(){
 
+  const pullDownButton = document.getElementById("lists")
+  console.log(pullDownButton)
+})
+
+
+lists.addEventListener('mouseover',function(){
+
+  console.log("乗る")
+})
+
+lists.addEventListener('mouseout',function(){
+
+  console.log("外れる")
+})
+
+lists.addEventListener('click',function(){
+
+  console.log("クリック")
+})
