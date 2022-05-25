@@ -1,5 +1,8 @@
+function pullDown() {
 const pullDownButton = document.getElementById("lists")
 const pullDownParents = document.getElementById("pull-down")
+const pullDownChild = document.querySelectorAll(".pull-down-list")
+const currentList = document.getElementById("current-list")
 console.log(pullDownButton)
 
 window.addEventListener('load',function(){
@@ -43,3 +46,14 @@ pullDownButton.addEventListener('click', function(){
     console.log("表示")
   }
 })
+
+pullDownChild.forEach(function(list) {
+  list.addEventListener('click',function() {
+    const value = list.innerHTML
+    console.log(value)
+    currentList.innerHTML = value
+  })
+})
+
+}
+window.addEventListener('load',pullDown)
