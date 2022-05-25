@@ -27,11 +27,11 @@ lists.addEventListener('click',function(){
 })
 
 pullDownButton.addEventListener('mouseover', function(){
-  pullDownButton.setAttribute("style", "background-color:blue;")
+  this.setAttribute("style", "background-color:blue;")
 })
 
 pullDownButton.addEventListener('mouseout',function(){
-  pullDownButton.removeAttribute("style", "background-color:red;")
+  this.removeAttribute("style", "background-color:red;")
 })
 
 pullDownButton.addEventListener('click', function(){
